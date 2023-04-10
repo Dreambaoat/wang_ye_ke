@@ -104,3 +104,15 @@ h1,h2{
 h1{
   font-weight: 200;
 }
+
+p{
+  color: #d12c47;
+}
+
+p .a{
+  color: aqua;
+}
+
+p #b{
+  color: blueviolet;
+}
