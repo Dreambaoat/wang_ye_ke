@@ -1,0 +1,62 @@
+.left {
+	margin-right: 10px;
+}
+
+.right {
+	margin-left: 20px;
+}
+
+.ruler {
+	display: inline-block;
+	width: 28px;
+  height: 16px;
+  border: 1px solid red;
+}
+
+div.right{
+  float:right;
+}
+
+div.block{
+  width: 45vw;
+  height: 20vh;
+  border: 2px solid black;
+}
+
+div.top{
+  margin-bottom:10px 
+}
+
+div.bottom{
+  margin-top: 20px;
+}
+
+div.ruler{
+  height: 20px;
+}
+
+.yi{
+  width: 40vw;
+  height: 30vh;
+  background-color: cadetblue;
+}
+
+.er{
+  width: 30vw;
+  height: 20vh;
+  background-color: chartreuse;
+}
+
+.yi01{
+  width: 40vw;
+  height: 30vh;
+  background-color: cadetblue;
+  border: 1px solid red;
+}
+
+.er02{
+  width: 30vw;
+  height: 20vh;
+  background-color: chartreuse;
+  border: 1px solid red;
+}
