@@ -20,13 +20,11 @@ div.tableRow{
   
 }
 
-div.tableq{
-  display:table;
-}
 
 .drinks {
     background-color: #efe5d0;
     padding: 15px;
+    display:table-cell
 }
 
 .main {
@@ -44,6 +42,7 @@ div.tableq{
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   border-spacing: 10px;
+  width: 280px;
 }
 
 .footer {
