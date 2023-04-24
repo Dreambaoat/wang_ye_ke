@@ -10,6 +10,10 @@ body {
   height:           108px;
 }
 
+.headerSlogan{
+  float: right;
+}
+
 div.tableContainer{
   display: table;
   border-spacing: 10px;
