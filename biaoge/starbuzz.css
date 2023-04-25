@@ -17,7 +17,6 @@ div.tableContainer{
 
 div.tableRow{
   display: table-row;
-  
 }
 
 
@@ -77,16 +76,19 @@ a:visited {
 }
 
 .sprite-container{
-  width: 50%;
+  width: 260px;
   height: 100%;
   overflow: hidden;
-  background-image: url('img_navsprites.gif');
 }
 
-.header-logo {
-	background-position: 0px 0px; /* 没有任何偏移 */
+.header-logo{
+  background-image: url('images/header.gif');
+  background-position-x: 0px;
+  background-position-y: 0px;
 }
 
-.header-slogan {
-	background-position: -400px 0px; /* 向左偏移 */
+.header-slogan{
+  background-image: url(images/header.gif);
+  background-position: 260px 0px;
+  float: right;
 }
