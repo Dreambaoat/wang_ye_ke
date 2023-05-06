@@ -29,6 +29,11 @@ body {
   position: absolute;
   top: 30px;
   left: 45%;
+  transition: left 0.1s scale(5);
+}
+
+.award:hover{
+  left: 40%;
 }
 
 div.tableContainer{
