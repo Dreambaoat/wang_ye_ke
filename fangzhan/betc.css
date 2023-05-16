@@ -1,4 +1,80 @@
+.yi{
+  position: relative;
+  top: 17px;
+  left: 600px;
+  font-size: 40px;
+}
+
+.er{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul{
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+
+.yi ul li{
+  display: inline;
+}
+
+.er ul li{
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+.er ul li a:link,.er ul li a:visited{
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.er ul li.selected{
+  background-color: aquamarine;
+}
+
+.yi ul li a:link,.yi ul li a:visited{
+  font-weight: bold;
+  border-bottom: none;
+  font-size: 40%;
+}
+
+.BETC{
+  text-align: center;  
+}
+
 .huise{
   position: relative;
-  top: 500px;
+  top: -300px;
+  left: 0px;
+  opacity: 96%;
+}
+
+.link1:hover{
+  color: orange;
+  transition: 0.7s;
+}
+
+.link1{
+  color: black;
+}
+
+.link2:hover{
+  color: orange;
+  transition: 0.7s;
+}
+
+.link2{
+  color: gray;
 }
