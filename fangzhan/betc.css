@@ -4,20 +4,41 @@
 }
 
 
-.yi{
+.yiwan{
   position: relative;
   top: 20px;
   left: 600px;
   font-size: 40px;
 }
 
-.er{
+.erwan{
   text-align: center;
   position: relative;
   top: 60px;
   font-size: 20px;
   text-transform: uppercase;
+}
 
+.sanwan{
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+  left: 120px;
+  top: -15px;
+}
+
+.siwan{
+  position: relative;
+  top: -45px;
+  left: 1000px;
+}
+
+.sanwan ul li{
+  display: inline;
+}
+
+.siwan ul li{
+  display: inline;
 }
 
 a{
@@ -32,25 +53,25 @@ nav ul{
   padding: 5px 0px 5px 0px;
 }
 
-.yi ul li{
+.yiwan ul li{
   display: inline;
 }
 
-.er ul li{
+.erwan ul li{
   display: inline;
   padding: 5px 10px 5px 10px;
 }
 
-.er ul li a:link,.er ul li a:visited{
+.erwan ul li a:link,.er ul li a:visited{
   border-bottom: none;
   font-weight: bold;
 }
 
-.er ul li.selected{
+.erwan ul li.selected{
   background-color: aquamarine;
 }
 
-.yi ul li a:link,.yi ul li a:visited{
+.yiwan ul li a:link,.yiwan ul li a:visited{
   font-weight: bold;
   border-bottom: none;
   font-size: 40%;
@@ -98,4 +119,37 @@ nav ul{
   font-weight: 900;
   position: relative;
   top: 80PX;
+}
+
+.sousu{
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+
+.BETC2{
+  color: black;
+  font-size: 250%;
+  font-weight: 900;
+  position: relative;
+  top: 25px;
+}
+
+.link3{
+  color: grey;
+}
+
+.link2:hover{
+  color: orange;
+  transition: 0.7s;
+}
+
+.a{
+  position: relative;
+}
+
+.b:target {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
