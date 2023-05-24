@@ -1,23 +1,58 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
 
 .yiwan{
   position: relative;
-  top: 20px;
-  left: 600px;
+  top: 40px;
+  left: 570px;
   font-size: 40px;
 }
 
 .erwan{
   position: relative;
-  top: 60px;
-  left: 150px;
+  top: -20px;
+  left: 210px;
   font-size: 20px;
   text-transform: uppercase;
 }
+
+.FR1 ul li{
+  display: inline;
+}
+
+.FR2 ul li{
+  display: inline;
+}
+
+
+.FR1{
+  position: relative;
+  top: -165px;
+  left: 913px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.FR2{
+  position: relative;
+  top: -128px;
+  left: 1300px;
+  font-weight: 900;
+}
+
+.sx2{
+  position: relative;
+  color: black;
+  top: -154px;
+  left: 1362px;
+}
+
+
+.sx{
+  position: relative;
+  color: black;
+  top: -210px;
+  left: 980px;
+}
+
 
 .sanwan{
   text-transform: uppercase;
@@ -59,7 +94,7 @@ nav ul{
 
 .erwan ul li{
   display: inline;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 20px 5px 20px;
 }
 
 .erwan ul li a:link,.er ul li a:visited{
@@ -77,16 +112,11 @@ nav ul{
   font-size: 40%;
 }
 
-/* .BETC{
-  position: relative;
-  top: 50px;  
-} */
-
 .huise{
   position: relative;
-  top: -300px;
+  top: 500px;
   left: 0px;
-  opacity: 99%;
+  opacity: 98%;
 }
 
 .link1:hover{
@@ -110,21 +140,6 @@ nav ul{
 .huise{
   position: relative;
   top: -40px;
-}
-
-.BETC{
-  color: black;
-  text-align: center;
-  font-size: 1500%;
-  font-weight: 900;
-  position: relative;
-  top: 80PX;
-}
-
-.sousu{
-  position: relative;
-  top: 100px;
-  left: 50px;
 }
 
 .BETC2{
@@ -162,7 +177,40 @@ section{
   scroll-snap-align: start;
 }
 
-/* html{
-  scroll-behavior: smooth;
-} */
+.sousuo{
+  position: relative;
+  top: -125px;
+  left: 850px;
+  height: 40px;
+}
 
+.sousuo2{
+  position: relative;
+  top: -85px;
+  left: 1250px;
+  height: 50px;
+}
+
+img{
+  display: block;
+}
+
+.huise{
+  position: relative;
+  top: -400px;
+}
+
+.BETC p{
+  color: black;
+  font-size: 250px;
+  font-weight: 900;
+  position: relative;
+  top: -370PX;
+  left: 504px;
+}
+
+.huise:after{
+  display: block;
+  content: \"\";
+  clear: both;
+}
